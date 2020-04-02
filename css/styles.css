@@ -49,5 +49,12 @@ h1 h2 h3 h4 {
     width: 500px;
     margin-right: auto;
     margin-left: auto;
+    
+    
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
