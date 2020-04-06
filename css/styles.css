@@ -10,6 +10,7 @@ h3 {
     font-weight: 600;
     font-size: 1.5em;
     background-color: #fff;
+    transition: background-color .3s, color .3s;
 }
 
 body {
@@ -58,3 +59,21 @@ h1 h2 h3 h4 {
     justify-content: center;
     
 }
+
+@media screen and (max-width: 50rem){ 
+header,
+main,
+footer 
+    {flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
